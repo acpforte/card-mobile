@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        Mobile first
+        
+        */
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        
+        #container {
+            border: 3px solid black;
+        
+            @media screen and (
+                max-width: 1100px;
+                margin-left: auto;
+                margin-right: auto;  
+                width: 100%;
+            ) 
+             
+           
+        }
+
+        
+        h1 {
+            color: purple;
+            font-size: 30px;
+        }
+
+        /******** BREAKPOINTS  ********/
+
+        /* Media Queries  */
+
+        /* Tablets >= 768px */
+        @media screen and (min-width: 768px) {
+            h1 {
+                text-align: center;
+                color: green;
+        }
+}
+        
+        /* Desktops >= 992px */
+        @media screen and (min-width: 992px) {
+            /* mudar cor de fundo da página */
+           body {
+               background-color: khaki;
+           }
+
+}
+
+        /* Telas Largas >= 1200px */
+        @media screen and (min-width: 1200px) {
+        /* mudar cor de fundo da página */
+
+        body {
+            background-color: lightblue;
+        }
+
+        /* título da página alinhado à esquerda */
+        h1 {
+            text-align: left ;
+        }
+
+        
+}
+
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1>Meu site Responsivo</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure maxime laudantium aut delectus, amet tempora neque in atque laborum explicabo perspiciatis consequatur dolor voluptas, veritatis excepturi sint assumenda voluptatem accusantium.</p>
+</div>
+
+</body>
+</html>
