@@ -1,2 +1,3 @@
 # card-mobile
-Meu primeiro projeto de aprendizado sobre responsividade, viewport, media queries, etc!
+Meu primeiro projeto de aprendizagem sobre responsividade, viewport, media queries, etc! Disponível em
+https://acpforte.github.io/card-mobile/
