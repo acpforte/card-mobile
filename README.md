@@ -1,2 +1,2 @@
 # card-mobile
-Meu primeiro projeto de aprendizado sobre responsivudade, viewport, media queries, etc!
+Meu primeiro projeto de aprendizado sobre responsividade, viewport, media queries, etc!
